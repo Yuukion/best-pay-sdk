@@ -27,4 +27,14 @@ public class AliPayAccountConfig {
      * 异步通知url
      */
     private String notifyUrl;
+
+    /**
+     * 同步返回的url
+     */
+    private String returnUrl;
+
+    /**
+     * 是否使用沙箱
+     */
+    private Boolean sandbox;
 }
